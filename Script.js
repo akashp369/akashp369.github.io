@@ -65,13 +65,13 @@ function sendMail(params) {
   resumeLink.addEventListener("click", function (event) {
     event.preventDefault();
     window.open(
-      "https://onedrive.live.com/view.aspx?resid=28E32F7AA490015B!551&authkey=!AFzRJF9ixXvV4Ck",
+      "https://drive.google.com/file/d/1_Y2Cp4-Cwk68vt5v-SR6XSD4cnxlgbAS/view?usp=sharing",
       "_blank"
     );
     let link = document.createElement("a");
     link.href =
-      "https://drive.google.com/u/0/uc?id=11J8o3BDozE0QKCrvFbteWAAF-ddWXZG6&export=download";
-    link.download = "Hasbe-Alam-Resume";
+      "https://drive.google.com/uc?export=download&id=1_Y2Cp4-Cwk68vt5v-SR6XSD4cnxlgbAS";
+    link.download = "Akash-Prajapat-Resume";
     link.click();
   });
   
