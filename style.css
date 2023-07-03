@@ -408,6 +408,7 @@ section .title::after {
 .techStack img {
   width: 8%;
   margin-left: 10px;
+  margin-right: 10px;
 }
 .projects .projectDetails .projectInfo .links {
   display: flex;
