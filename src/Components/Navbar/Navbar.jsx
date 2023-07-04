@@ -13,7 +13,7 @@ export default function Navbar({comp,setComp}){
         <a href = "#home" onClick={()=>{
             setComp("home")
         }}>
-            <Box id="user-detail-name" w="40%"><Heading><Flex gap="3%" fontSize={["md","lg","3xl"]}><Text color="tomato">Akash</Text> <Text color="telegram.200">Prjapat</Text></Flex></Heading></Box></a>
+            <Box id="user-detail-name" w="40%"><Heading><Flex gap="3%" fontSize={["md","lg","3xl"]}><Text color="tomato">Akash</Text> <Text color="telegram.200">Prajapat</Text></Flex></Heading></Box></a>
 
         <Flex justify="space-evenly" gap="1%"  w="60%" alignItems="center" flexWrap={["wrap"]} id="all-nav-link">
         <a href="#home"><Button  className="nav-link home" w ={["30px","50px","70px"]} h={["15px","25px","35px"]} bg={comp==="home"?"black":"tomato"} color="white" _hover={{bg:"green.300",color:"black"}} alignItems="center" onClick={()=>{
