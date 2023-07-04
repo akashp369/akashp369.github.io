@@ -91,32 +91,4 @@ resumeLink.addEventListener("click", function (event) {
 
 
 
-  // Resume
-  // var resumeLink = document.querySelector("#resume-button-1");
-  // resumeLink.addEventListener("click", function (event) {
-  //   event.preventDefault();
-  //   window.open(
-  //     "https://drive.google.com/file/d/1_Y2Cp4-Cwk68vt5v-SR6XSD4cnxlgbAS/view?usp=sharing",
-  //     "_blank"
-  //   );
-  //   let link = document.createElement("a");
-  //   link.href =
-  //     "https://drive.google.com/uc?export=download&id=1_Y2Cp4-Cwk68vt5v-SR6XSD4cnxlgbAS";
-  //   link.download = "Akash-Prajapat-Resume";
-  //   link.click();
-  // });
-  
-  // var resumeLink = document.querySelector("#resume-button-2");
-  // resumeLink.addEventListener("click", function (event) {
-  //   event.preventDefault();
-  //   window.open(
-  //     "https://drive.google.com/file/d/1_Y2Cp4-Cwk68vt5v-SR6XSD4cnxlgbAS/view?usp=sharing",
-  //     "_blank"
-  //   );
-  //   let link = document.createElement("a");
-  //   link.href =
-  //     "https://drive.google.com/uc?export=download&id=1_Y2Cp4-Cwk68vt5v-SR6XSD4cnxlgbAS";
-  //   link.download = "Akash-Prajapat-Resume";
-  //   link.click();
-  // });
   
