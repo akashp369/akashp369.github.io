@@ -65,7 +65,7 @@ var resumeLink = document.querySelector("#resume-button-1");
 resumeLink.addEventListener("click", function (event) {
   event.preventDefault();
   window.open(
-    "https://onedrive.live.com/?authkey=%21ACJKNPx%5F6HuGNuY&cid=EB2F9B6B6FC4EAFB&id=EB2F9B6B6FC4EAFB%2141339&parId=root&o=OneUp",
+    "https://1drv.ms/b/s!AvvqxG9rmy_rgsJ7Iko0_H_oe4Y25g?e=jN4zSF",
     "_blank"
   );
   let link = document.createElement("a");
@@ -79,7 +79,7 @@ var resumeLink = document.querySelector("#resume-button-2");
 resumeLink.addEventListener("click", function (event) {
   event.preventDefault();
   window.open(
-    "https://onedrive.live.com/?authkey=%21ACJKNPx%5F6HuGNuY&cid=EB2F9B6B6FC4EAFB&id=EB2F9B6B6FC4EAFB%2141339&parId=root&o=OneUp",
+    "https://drive.google.com/file/d/1hmg4we0l9IKakJ2Cgjie98L6Hk6EYzHi/view?usp=sharing",
     "_blank"
   );
   let link = document.createElement("a");
