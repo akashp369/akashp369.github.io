@@ -65,7 +65,7 @@ var resumeLink = document.querySelector("#resume-button-1");
 resumeLink.addEventListener("click", function (event) {
   event.preventDefault();
   window.open(
-    "https://1drv.ms/b/s!AvvqxG9rmy_rgsJ7Iko0_H_oe4Y25g?e=jN4zSF",
+    "https://drive.google.com/file/d/1hmg4we0l9IKakJ2Cgjie98L6Hk6EYzHi/view?usp=sharing",
     "_blank"
   );
   let link = document.createElement("a");
