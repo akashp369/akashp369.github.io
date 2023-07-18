@@ -861,6 +861,7 @@ section .title::after {
     display: none;
   }
   #contact-info .contactme img {
+    width: 25px;
     border-radius: 50%;
     margin-right: 9px;
   }
