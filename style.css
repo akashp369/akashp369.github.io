@@ -23,6 +23,7 @@ body {
   max-width: 1300px;
   padding: 0 80px;
   margin: auto;
+  
 }
 
 .navbar {
@@ -60,6 +61,7 @@ body {
 
 .navbar .logo a {
   color: black;
+  
   font-size: 30px;
   font-weight: 600;
 }
@@ -78,6 +80,7 @@ body {
   display: table;
   width: 600px;
   text-align: center;
+  
 }
 .navbar .menu li {
   list-style: none;
@@ -322,6 +325,7 @@ section .title::after {
   color: black;
   /* background: black; */
   background-size: 2000px;
+  
 }
 .projects .title::before {
   background: black;
@@ -341,6 +345,7 @@ section .title::after {
   transition: all 0.3s ease;
   border: 1px solid rgb(102, 0, 153);
   margin-bottom: 30px;
+  
 }
 .projects .serv-content .card:hover {
   background: white;
@@ -361,6 +366,7 @@ section .title::after {
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
+  
 }
 .projects .serv-content .card:hover {
   color: rgb(102, 0, 153);
@@ -546,14 +552,17 @@ section .title::after {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
+  
 }
 .contact .contact-content .contact-image {
   width: 100%;
+  
 }
 
 .contact .contact-content .contact-image img {
   width: 100%;
   border-radius: 10px;
+  
 }
 
 .contactme {
@@ -561,15 +570,18 @@ section .title::after {
   flex-direction: row;
   height: 40px;
   margin-bottom: 20px;
+  
 }
 
 #contact-info .contactme img {
   border-radius: 50%;
   margin-right: 20px;
+  
 }
 #contact-info .contactme p {
   font-size: 20px;
   /* color: rgb(102, 0, 153); */
+
 }
 .contact-div {
   width: 25%;
@@ -720,6 +732,7 @@ section .title::after {
     text-align: center;
     padding-top: 80px;
     transition: all 0.3s ease;
+    
   }
 
   .navbar .menu.active {
@@ -774,10 +787,6 @@ section .title::after {
   }
 }
 @media (max-width: 690px) {
-  .max-width {
-    padding: 0 23px;
-  }
-
   .home .home-content .text-1 {
     font-size: 25px;
   }
@@ -791,11 +800,6 @@ section .title::after {
   }
   .home .home-content .text-3 span {
     font-size: 25px;
-  }
-  .home .passport {
-    margin-left: 50px;
-    padding-top: 220px;
-    width: 20%;
   }
   .projects .serv-content .card,
   .skills .skills-content .column,
@@ -821,24 +825,48 @@ section .title::after {
   .home .home-content .text-3 span {
     font-size: 20px;
   }
-  .home .passport {
-    margin-left: 30px;
-    padding-top: 230px;
-    width: 25%;
-  }
   #contact-info {
     margin-top: 25px;
   }
 }
 @media (min-width: 0px) and (max-width: 640px) {
+  .navbar{
+    width: 100%;
+  }
+  .max-width{
+    width: 100%;
+  }
+  #home .max-width {
+    margin: auto 0px auto 0;
+    display: flex;
+  }
   .serv-content {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
   #home .passport {
-    margin-left: 150px;
-    padding-top: 200px;
-    width: 350%;
+    display: none;
+  }
+  .projects{
+    padding: 0;
+  }
+  .projects .serv-content{
+    width: auto;
+    margin: -10%;
+  }
+  .projects .serv-content .card {
+    padding: 13px 13px;
+}
+  .projectLinks img{
+    display: none;
+  }
+  #contact-info .contactme img {
+    border-radius: 50%;
+    margin-right: 9px;
+  }
+  #contact-info .contactme p {
+    font-size: 17px;
+    /* color: rgb(102, 0, 153); */
   }
 }
 @media (min-width: 641px) and (max-width: 1007px) {
